@@ -1,0 +1,18 @@
+.login-form-section{
+    padding: 15px;
+    .form1{
+        label{
+            text-transform: uppercase;
+        }
+    }
+    .form-check{
+        label{
+            @extend %body-color;
+        }
+    }
+    .boxed-btn{
+        height: 35px;
+        line-height: 35px;
+        width: 100%;
+    }
+}
