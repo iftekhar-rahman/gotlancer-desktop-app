@@ -1,0 +1,23 @@
+.start-timer {
+  color: #314963;
+  font-size: 29px;
+  font-weight: 500;
+  display: block;
+  line-height: 1.2;
+  margin: 15px  0 25px; }
+  .start-timer h4 {
+    color: #B9CAD9;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin: 0 0 7px; }
+  .start-timer a {
+    color: #B9CAD9;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 4px 0;
+    margin-bottom: 7px; }
+
+.login-form-section.time-setting-form .boxed-btn {
+  width: 160px;
+  margin: 0 auto;
+  display: block; }

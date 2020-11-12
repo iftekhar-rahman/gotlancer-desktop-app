@@ -1,0 +1,56 @@
+.content-header {
+    border-bottom: 1px solid #B9CAD9;
+    padding: 5px 15px;
+    h4 {
+        margin: 0 0 0 10px;
+        font-size: 13px;
+    }
+    .boxed-btn {
+        padding: 0px 8px;
+        background: #485E76;
+        color: #fff;
+        height: 25px;
+        line-height: 24px;
+        img {
+            margin: 0px 3px 1px 0;
+        }
+    }
+}
+
+.added-success-content {
+    font-size: 10px;
+    color: #485E76;
+    margin-top: 60px;
+    a {
+        color: #6FB556;
+    }
+    h3 {
+        font-size: 18px;
+        margin: 10px 0 10px;
+    }
+    .times-tracked {
+        width: 180px;
+        background: #E3EAF4;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 8px;
+        margin-bottom: 20px;
+        h4 {
+            font-size: 14px;
+            margin: 0 0 3px;
+        }
+        .tracked-time {
+            line-height: 1;
+            display: block;
+            font-size: 20px;
+            color: #314963;
+            font-weight: 500;
+        }
+    }
+    .boxed-btn {
+        width: 160px;
+        color: #fff;
+    }
+}
+
+

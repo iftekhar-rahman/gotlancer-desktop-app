@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>login-screen</title>
+        <title>project-tab-blank</title>
         
         <!--Libraries-->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,38 +27,47 @@
             <div class="container">
                 <div class="row">
                     <div class="col">
-                         <!-- header-section starts -->
-                         <div class="header-section">
+                        <!-- header-section starts -->
+                        <div class="header-section d-flex justify-content-between align-items-center">
                             <div class="logo text-center">
                                 <a href="#"><img src="img/logo.svg" alt=""></a>
+                            </div>
+                            <div class="user-meta position-relative text-right">
+                                <span class="user-avatar"><img src="img/avatar.svg" alt=""></span>
+                                <h4>Apurba Das</h4>
+                                <a href="#">Logout</a>
                             </div>
                         </div><!-- header-section ends -->
                         <!-- main-content-section starts -->
                         <div class="main-content-section">
-                            <div class="login-form-section">
-                                <h6 class="text-center">Welcome Back</h6>
+                            <div class="content-header d-flex align-items-center">
+                                <a class="boxed-btn" href="#"><img src="img/left-arrow.svg" alt=""> Back</a>
+                                <h4>UI Design for Android App</h4>
+                            </div>
+                            <div class="start-timer text-center">
+                                <h4>Start new timer</h4>
+                                <span class="starting-time">00 : 20 : 30</span>
+                                <a href="#">Reset</a>
+                                <div class="play-btn">
+                                    <img src="img/play-icon.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="login-form-section time-setting-form">
                                 <form action="#">
                                     <div class="form-group form1">
-                                        <label for="username">Username</label>
-                                        <input type="text" class="form-control" id="username" placeholder="Enter you username">
+                                        <label for="date">Date</label>
+                                        <input type="date" class="form-control" id="date" placeholder="03/11/2020">
                                     </div>
                                     <div class="form-group form1">
-                                        <label for="password">Password</label>
-                                        <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                                        <label for="task">Task</label>
+                                        <input type="text" class="form-control" id="task" placeholder="Type task details">
                                     </div>
-                                    <div class="form-group form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Remember this device</label>
-                                    </div>
-                                    <button type="submit" class="boxed-btn">Login Now</button>
-                                    <div class="forgot-password text-center">
-                                        <a href="#">Forgot password</a>
-                                    </div>
+                                    <button type="submit" class="boxed-btn">Add Hours</button>
                                 </form>
                             </div>
                         </div><!-- main-content-section ends -->
-                         <!-- footer-section ends -->
-                         <div class="footer-section text-center">
+                        <!-- footer-section ends -->
+                        <div class="footer-section text-center">
                             <p>Copyright © Gotlancer Pvt Ltd. All Rights Reserved.</p>
                         </div>
                     </div>

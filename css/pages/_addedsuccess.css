@@ -1,0 +1,17 @@
+.content-header {
+  border-bottom: 1px solid #B9CAD9;
+  padding: 5px 15px; }
+
+.content-header .boxed-btn {
+  padding: 0px 8px;
+  background: #485E76;
+  color: #fff;
+  height: 25px;
+  line-height: 24px; }
+
+.content-header h4 {
+  margin: 0 0 0 10px;
+  font-size: 13px; }
+
+.content-header .boxed-btn img {
+  margin: 0px 3px 1px 0; }
