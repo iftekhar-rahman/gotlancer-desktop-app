@@ -10,6 +10,9 @@
                 font-weight: 500;
                 padding: 5px 50px;
                 position: relative;
+                @include mx-mobile-xs{
+                    padding: 5px 30px;
+                }
                 &.active:after {
                     position: absolute;
                     left: 0;
@@ -57,3 +60,81 @@
         line-height: 1;
     }
 }
+
+
+.project-results {
+    padding: 10px 15px 0;
+    input[type=text] {
+        height: 35px;
+        line-height: 35px;
+        padding: 7px 10px 7px 23px;
+    }
+    .searh-icon {
+        position: absolute;
+        left: 7px;
+        top: 7px;
+    }
+}
+.search-results {
+    ul {
+        li {
+            position: relative;
+            color: #8CA2BB;
+            font-size: 8px;
+            border-bottom: 1px solid #B9CAD9;
+            padding-bottom: 9px;
+            margin-bottom: 9px;
+            h4 {
+                font-size: 10px;
+                margin: 0 0 5px;
+            }
+            .boxed-btn {
+                position: absolute;
+                right: 0;
+                top: 50%;
+                transform: translate(0px, -50%);
+                height: 22px;
+                line-height: 20px;
+                font-size: 9px;
+                font-weight: 600;
+                padding: 0px 10px;
+            }
+            .hourly{
+                @extend %primary-color;
+            }
+        }
+    }
+}
+
+.project-results{
+    &.timer-report {
+        ul {
+            li {
+                display: flex;
+                justify-content: space-between;
+                .project-time {
+                    float: right;
+                }
+                .project-date {
+                    color: #6FB556;
+                    font-size: 8px;
+                }
+                .project-title {
+                    width: 83px;
+                    color: #485E76;
+                    font-size: 8px;
+                }
+                .project-time {
+                    color: #314963;
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
